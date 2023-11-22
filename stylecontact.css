@@ -1,0 +1,346 @@
+html{
+    background-color: #f7dbf381;
+}
+.header{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+color: #D20F45;
+margin-top: 10px;
+}
+.S1{
+    padding-left: 150px;
+}
+.logo{
+    margin-top: -50px;
+    padding-right: 50%;
+    border: 1px solid #D20F45 ;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+}
+/*.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /*width: 200px;
+    height: 200px;*/
+    /*padding-top: 0%;*/
+    /*padding-right: 50%;*/
+   /* border: 1px solid #D20F45 ;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+    .fc{
+        padding: 150px;
+        font-size: 50px;
+        width: 180px;
+        text-align: center;
+        text-decoration:double;
+        border-radius: 50%;
+      }
+     .fc:hover {
+    opacity: 0.7;
+  }
+
+     .fc {
+    background: #3B5998;
+    color: white;
+  }
+     .in{
+        padding: 150px;
+        font-size: 50px;
+        width: 180px;
+        text-align: center;
+        text-decoration:double;
+        border-radius: 50%;
+      
+  }
+     .in:hover {
+     opacity: 0.7;
+  }
+     .in {
+        background: #e621cb;
+        color: white;
+  }
+  .gm{
+    padding: 150px;
+    font-size: 50px;
+    width: 180px;
+    text-align: center;
+    text-decoration:double;
+    border-radius: 50%;
+  
+}
+ .gm:hover {
+ opacity: 0.7;
+}
+ .gm {
+    background: #e91f1f;
+    color: white;
+}
+.wt{
+    padding: 150px;
+    font-size: 50px;
+    width: 180px;
+    text-align: center;
+    text-decoration:double;
+    border-radius: 50%;
+  
+}
+ .wt:hover {
+ opacity: 0.7;
+}
+ .wt{
+    background: #62e715;
+    color: white;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: solid;
+    color: #000000;
+}
+.footer-dist{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fee7f0;
+    background-image: url(fotfot2jpg.jpg);
+    opacity: 1;
+   background-repeat:repeat;
+    /*background-position: 50px 100px;
+    background-size:contain;
+    /*box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;*/
+    /*padding-left: 100px;
+    /*margin-top: 80px;
+    /*background-attachment: scroll;
+    flex-shrink: 0;
+    border-top: 1px ridge #fee7f0;
+    /*width: 100px;*/
+    /*margin-bottom: 50px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.box{
+    position: relative;
+    width: 380px;
+    height:480px;
+    background: #71254e;
+    border-radius: 8px;
+}
+.box form{
+    position: absolute;
+    inset:4px;
+    background: #d6ccd0;
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.box form h2{
+    color: #160f0f;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.box form .inputbox{
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+}
+.box form .inputbox input{
+    position: relative;
+    width:100% ;
+    padding: 20px 10px  10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #000000;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+.box form .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    pointer-events: none;
+    color: #71254e;
+    font-size: 1em;
+    letter-spacing: 0.05;
+    transition: 0.5s;
+}
+.box form .inputbox input:valid~span,
+.box form .inputbox input:valid~span{
+     color:#181114;
+     font-size: 0.75em;
+     transform: translateY(-34px);
+}
+.box form .inputbox{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #000000;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.box form .inputbox input:valid~span,
+.box form .inputbox input:valid~span{
+   height: 44px;
+}
+.box form .links{
+    display: flex;
+    justify-content: space-between;
+}
+.box form .links a{
+margin: 10px 0;
+font-size: 0.75em;
+color: #d6ccd0;
+text-decoration: none;
+}
+.box form .links a:hover,
+.box form .links a:nth-child(2){
+    color: #ff4788;
+}
+.box form input[type="submit"]
+{
+    border:none;
+    outline: none;
+    padding: 9px 25px;
+    background: #d6ccd0;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100px;
+    margin-top: 10px;
+}
+.box11{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+label{
+    margin-top: 10px;
+    font-family:fantasy;
+    font-size: larger;
+    color: #71254e;
+    margin-bottom: 10px;
+}
+.input .box{
+ margin-top: 10px; 
+}
+p{
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    
+}*/
+form{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+label{
+    color:rgb(252, 3, 194);
+    font-style: arial;
+    font-size: 110%;
+    
+}
+  fieldset{
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+legend{
+    padding: 0px 5px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 150%;
+}
+label{
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 7px;
+}
+input:focus{
+    background: #ffffff;
+}
+input, textarea{
+    width: 249px;
+}
+textarea{
+    height: 100px;
+}
+select{
+    width: 224px;
+}
+input[type=submit]{
+    width: 150px;
+    padding: 10px;
+}
+.navfoo{
+    margin-top:10%;
+    flex-direction: column;
+    padding-left: 40%;
+    justify-content: space-between;
+    }
+    .a1{
+        padding-left: 20%;
+        font-size: 170%;
+        margin-top: 50%;
+        margin-bottom: 90%;
+    }
+    .a3{
+        padding-left: 20%;
+        font-size: 170%;
+    }
+    .a5{
+        padding-left: 20%;
+        font-size: 170%;
+    }
+    .a2{
+        padding-right: 20%;
+        font-size: 170%;
+    }
+    .a4{
+        padding-right: 20%;
+        font-size: 170%;
+    }
+    .a6{
+        font-size: 170%;
+        padding-right: 20%;
+    }
